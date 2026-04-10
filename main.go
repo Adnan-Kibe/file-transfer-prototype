@@ -1,7 +1,13 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"github/adnan-kibe/file-transfer-prototype/documents"
+)
 
 func main() {
-	fmt.Println("Hello World!")
+	err := documents.FullWalkDown("D:/Golang/file transfer/prototype")
+	if err != nil {
+		fmt.Println(err)
+	}
 }
