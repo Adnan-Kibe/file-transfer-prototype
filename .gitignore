@@ -1,0 +1,61 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Go workspace file (optional, ignore if using go work)
+go.work
+go.work.sum
+
+# Dependency directories (rarely used now, but safe)
+vendor/
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables (IMPORTANT for your projects)
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+
+# Temporary files
+tmp/
+temp/
+
+# Build folders (if you use custom ones)
+dist/
+build/
+
+# Coverage reports
+coverage.out
+
+# Generated files (if any)
+*.gen.go
+
+# Docker
+*.tar
+
+# Air (live reload tool)
+.air.toml
+
+# SQLite (if you ever use it locally)
+*.db
+*.sqlite3
