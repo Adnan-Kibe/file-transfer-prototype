@@ -59,3 +59,5 @@ coverage.out
 # SQLite (if you ever use it locally)
 *.db
 *.sqlite3
+
+*.txt
